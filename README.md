@@ -16,7 +16,7 @@ Download Lilypond from https://lilypond.org/download.html and make sure that the
 
 ## Running the program
 
-Download the files in the repository.
+Download the files in the repository and make sure the folder is unzipped.
 
 Open the terminal app and navigate to where the program files have been downloaded. By default this should be:
 
