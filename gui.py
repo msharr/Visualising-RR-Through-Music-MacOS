@@ -13,7 +13,7 @@ customtkinter.set_default_color_theme("blue")
 
 #app
 app = customtkinter.CTk()  
-app.geometry("1240x840")
+app.geometry("620x520")
 app.title("musicRR")
 app.resizable(False, False)
 
