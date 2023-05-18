@@ -4,7 +4,7 @@ import transcriber
 import categorisation
 import os
 
-output_folder = "Output\\"
+output_folder = "Output/"
 output_file_name = "Peaks"
 
 def output_clean():                             

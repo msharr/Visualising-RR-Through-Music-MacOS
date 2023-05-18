@@ -8,7 +8,7 @@ def main():
         time.sleep(1)
     time.sleep(1)
     pdf_files = [f for f in os.listdir('Output') if f.endswith('.pdf')]
-    os.startfile("Output\\"+pdf_files[0])
+    os.system("Output\\"+pdf_files[0])
 
 if __name__ == "__main__":
     main()

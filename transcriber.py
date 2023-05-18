@@ -79,7 +79,7 @@ def lilypond_create(transcription,file):
 def main(ratio_data, output_file):
     notes = transcription_regions(ratio_data)    
     lilypond_create(notes,output_file)      
-    os.startfile(output_file)
+    os.system(output_file)
 
 if __name__ == "__main__":
     main()
