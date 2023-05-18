@@ -12,7 +12,7 @@ Latest version of python installed.
 
 Download Lilypond from https://lilypond.org/download.html and make sure that the default program for running `.ly` files is set to Lilypond.
 
-> Depending on the version of macOS and Lilypond the main download link may not work. In this case try the alternatives suggested on the download page
+> Depending on the version of macOS and Lilypond the main download link may not work. In this case try the alternatives suggested on the download page or try the solution provided here: https://music.stackexchange.com/a/117631 and follow the instructions on the installation section of MacPorts including the "Xcode" section
 
 ## Running the program
 
