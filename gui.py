@@ -38,12 +38,7 @@ def openURL():
 
 def browseFiles():
     global filename
-    filename = filedialog.askopenfilename(initialdir = os.getcwd(),
-                                          title = "Select a File",
-                                          filetypes = (("Text files",
-                                                        "*.txt*"),
-                                                       ("all files",
-                                                        "*.*")))
+    filename = filedialog.askopenfilename(initialdir = os.getcwd(),title = "Select a File",filetypes = (("all files","*.*"),))
 
 # background
 img = Image.open("img/ekg-monitor.png")
